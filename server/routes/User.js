@@ -6,6 +6,11 @@ import {
   getUserDashboard,
   getWorkoutsByDate,
 } from "../controllers/User.js";
+import express from "express";
+import cors from "cors";
+
+const app = express();
+app.use(cors());
 import { verifyToken } from "../middleware/verifyToken.js";
 import cors from "cors";
 
