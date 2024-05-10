@@ -35,7 +35,9 @@ In this application user can able to
 
 In the project directory, you can run:
 
-**Live-** "https://nutrifit-fitness-tracker-project.netlify.app"
+**Netlify** "https://nutrifit-fitness-tracker-project.netlify.app"
+
+**Render.com** - "https://capstone-project-fitness.onrender.com"
 
 ### `npm start`
 
