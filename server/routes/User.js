@@ -8,8 +8,14 @@ import {
 } from "../controllers/User.js";
 import { verifyToken } from "../middleware/verifyToken.js";
 
-const router = express.Router();
 
+import cors from "cors";
+
+const app = express();
+
+
+const router = express.Router();
+router.use(cors());
 router.post("/signup", UserRegister);
 router.post("/signin", UserLogin);
 
