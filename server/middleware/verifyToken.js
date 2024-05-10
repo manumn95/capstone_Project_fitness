@@ -1,6 +1,12 @@
 import jwt from "jsonwebtoken";
 import { createError } from "../error.js";
 
+import express from "express";
+import cors from "cors";
+
+const app = express();
+app.use(cors());
+
 export const verifyToken = async (req, res, next) => {
   try {
     if (!req.headers.authorization) {
