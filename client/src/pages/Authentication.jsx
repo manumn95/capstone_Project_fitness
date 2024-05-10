@@ -74,7 +74,7 @@ color:orange;
 const Para2 = styled.p`
   position: absolute;
 color:orange;
-  top: 55%;
+  top: 60%;
   font-size:24px;
   left: 30%;
   border-radius: 50px;
