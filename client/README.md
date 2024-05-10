@@ -35,6 +35,8 @@ In this application user can able to
 
 In the project directory, you can run:
 
+**Live-** "https://nutrifit-fitness-tracker-project.netlify.app"
+
 ### `npm start`
 
 Runs the app in the development mode.\
