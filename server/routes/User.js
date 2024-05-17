@@ -9,8 +9,6 @@ import {
 
 import cors from "cors";
 
-const app = express();
-app.use(cors());
 import { verifyToken } from "../middleware/verifyToken.js";
 import cors from "cors";
 
