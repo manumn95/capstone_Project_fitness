@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://nutrifit-capstone-project.onrender.com",
+  baseURL: "https://capstone-project-fitness-tracker.onrender.com",
 });
 
 export const UserSignUp = async (data) => API.post("/user/signup", data);
