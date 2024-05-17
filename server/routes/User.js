@@ -15,13 +15,13 @@ import cors from "cors";
 
 
 
-const router = express.Router();
-router.use(cors());
-router.post("/signup", UserRegister);
-router.post("/signin", UserLogin);
+const app = express();
+app.use(cors())
+app.post("/signup", UserRegister);
+app.post("/signin", UserLogin);
 
-router.get("/dashboard", verifyToken, getUserDashboard);
-router.get("/workout", verifyToken, getWorkoutsByDate);
-router.post("/workout", verifyToken, addWorkout);
+app.get("/dashboard", verifyToken, getUserDashboard);
+app.get("/workout", verifyToken, getWorkoutsByDate);
+app.post("/workout", verifyToken, addWorkout);
 
 export default router;
