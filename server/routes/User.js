@@ -7,11 +7,9 @@ import {
   getWorkoutsByDate,
 } from "../controllers/User.js";
 import { verifyToken } from "../middleware/verifyToken.js";
-
-
 import cors from "cors";
 
-const app = express();
+
 
 
 const router = express.Router();
